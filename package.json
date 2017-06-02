@@ -1,0 +1,37 @@
+{
+  "name": "slackhooks",
+  "version": "0.0.0",
+  "description": "Simple Slack Incoming Webhooks",
+  "license": "MIT",
+  "repository": "jlobos/slackhooks",
+  "author": "Jesus Lobos <jlobitu@gmail.com> (https://jlobos.com/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo"
+  },
+  "engines": {
+    "node": ">=7"
+  },
+  "files": [
+    "index.js"
+  ],
+  "xo": {
+    "semicolon": false,
+    "space": true
+  },
+  "keywords": [
+    "slack",
+    "webhooks",
+    "incoming",
+    "log",
+    "team",
+    "messages",
+    "channels"
+  ],
+  "dependencies": {
+    "node-fetch": "^1.7.0"
+  },
+  "devDependencies": {
+    "xo": "^0.18.2"
+  }
+}
